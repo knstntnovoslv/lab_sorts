@@ -98,9 +98,9 @@ int main() {
             }
             case 2: {
                 fifth = 0;
-                while (fifth != 3) {
+                while (fifth != 4) {
                     cout << endl << "Choose Type:" << endl;
-                    cout << "1. Int sort test" << endl << "2. Float sort test" << endl << "3. back" << endl;
+                    cout << "1. Int sort test" << endl << "2. Float sort test" << endl << "3. String" << endl<<"4. Back"<<endl;
                     cin >> fifth;
                     cout << "\n";
                     switch (fifth) {
@@ -158,6 +158,10 @@ int main() {
                             break;
                         }
                         case 3: {
+                            keyboard_string_test();
+                            break;
+                        }
+                        case 4: {
                             break;
                         }
                         default: {
@@ -182,5 +186,3 @@ int main() {
         }
     }
 }
-
-
